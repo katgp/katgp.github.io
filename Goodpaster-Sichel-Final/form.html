@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Ignite @ UNC</title>
+        <link href="css/form.css" rel="stylesheet" type="text/css">
+
+        <!-- slicknav's css  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/slicknav.min.css">
+    
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <!-- A Google font-->
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400, 600' rel='stylesheet' type='text/css'>
+
+    <!-- Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+  
+    <!--jQuery CDN-->
+  <script
+    src="https://code.jquery.com/jquery-2.2.4.js"
+    integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+    crossorigin="anonymous"></script>
+    
+   <!-- Add link to the slicknav-specific script file here-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/jquery.slicknav.min.js"></script>
+  
+   <script type="text/javascript">
+            $(document).ready(function () {
+              $(".nav_menu").slicknav({
+                  prependTo: "#mobilemenu"
+              });
+          });
+      </script>
+        <!--We will definitely add more stuff in here-->
+    </head>
+
+    <body>
+        <div class="grid-container">
+            <header>
+                <nav id="mobilemenu"></nav> </header>
+                
+                <!-- default nav menu -->
+              <div class = "nav"> 
+                  <nav class="nav_menu">
+                  <ul>
+                  <a href="index.html"><img src="images/IMG_7121.png" height="50px" alt="IGNITE logo"></a>
+                  <li>  </li>
+                  <li>  </li>
+                  <li>  </li>
+                  <li>  </li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="newsletter.html">Newsletter</a></li>
+                    <li><a href="index.html#calendar">Calendar</a></li>
+                    <li>  </li>
+                  </ul>
+                </nav>
+              </div>   
+
+        <form method="get" action="">
+            <fieldset>
+                <h1>Join the Ignite Mailing List!</h1>
+                <div class="info">
+                     <br />
+                    <input type="text" name="firstname" placeholder="First Name" required />
+                </div>
+
+                <br>
+                <div class="info">
+                     <br />
+                    <input type="text" name="lastname" placeholder="Last Name" required />
+                </div>
+
+                <br>
+                <div class="info">
+                     <br />
+                    <input type="email" name="email" placeholder="Email" required />
+                </div>
+
+                <br>
+                <div class="info">
+                    <br />
+                    <input type="text" name="PID" placeholder="PID (if applicable)" />
+                </div>
+
+                <br>
+                <button type="submit">Submit</button>
+            </fieldset>
+        </form>
+
+        <div class = "footer">
+            <div class = "contact"> IGNITEunc@gmail.com &nbsp; &nbsp; <i class="fas fa-grip-lines-vertical fa-1x"></i> &nbsp; &nbsp; <a href=https://heellife.unc.edu/organization/igniteatuncch target="_blank"> IGNITE at UNC HeelLife</a> &nbsp; &nbsp; <i class="fas fa-grip-lines-vertical fa-1x"></i> &nbsp; &nbsp; <a href=https://ignitenational.org target="_blank"> IGNITE Nationals</a>
+            </div>
+            <div class = "socials">
+                <a href=https://www.instagram.com/igniteunc target="_blank"> <i class="fab fa-instagram fa-3x"></i> <br>
+                igniteunc</a>
+            </div>
+        </div>
+    </div>
+    </body>
+</html>
